@@ -1,0 +1,10 @@
+/Users/elishakim/Documents/coding/Andria/build/Qt_6_7_2_for_macOS-Release/CMakeFiles/Andria.dir
+/Users/elishakim/Documents/coding/Andria/build/Qt_6_7_2_for_macOS-Release/CMakeFiles/Andria_qmlimportscan.dir
+/Users/elishakim/Documents/coding/Andria/build/Qt_6_7_2_for_macOS-Release/CMakeFiles/edit_cache.dir
+/Users/elishakim/Documents/coding/Andria/build/Qt_6_7_2_for_macOS-Release/CMakeFiles/rebuild_cache.dir
+/Users/elishakim/Documents/coding/Andria/build/Qt_6_7_2_for_macOS-Release/CMakeFiles/list_install_components.dir
+/Users/elishakim/Documents/coding/Andria/build/Qt_6_7_2_for_macOS-Release/CMakeFiles/install.dir
+/Users/elishakim/Documents/coding/Andria/build/Qt_6_7_2_for_macOS-Release/CMakeFiles/install/local.dir
+/Users/elishakim/Documents/coding/Andria/build/Qt_6_7_2_for_macOS-Release/CMakeFiles/install/strip.dir
+/Users/elishakim/Documents/coding/Andria/build/Qt_6_7_2_for_macOS-Release/CMakeFiles/Andria_autogen_timestamp_deps.dir
+/Users/elishakim/Documents/coding/Andria/build/Qt_6_7_2_for_macOS-Release/CMakeFiles/Andria_autogen.dir
