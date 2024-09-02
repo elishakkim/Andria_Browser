@@ -1,0 +1,9 @@
+-rootPath
+/Users/elishakim/Documents/coding/Andria
+-cmake-output
+-output-file
+/Users/elishakim/Documents/coding/Andria/build/Qt_6_7_2_for_macOS-Debug/.qt/qml_imports/Andria_build.cmake
+-importPath
+/Users/elishakim/Documents/coding/Andria/build/Qt_6_7_2_for_macOS-Debug
+-importPath
+/Users/elishakim/Qt/6.7.2/macos/./qml
