@@ -1,0 +1,20 @@
+# ninja log v6
+102	286	1725240052225817271	/Users/elishakim/Documents/coding/Andria/build/Qt_6_7_2_for_macOS-Release/Andria_autogen/timestamp	b2d6e12100f79143
+102	286	1725240052225817271	/Users/elishakim/Documents/coding/Andria/build/Qt_6_7_2_for_macOS-Release/Andria_autogen/mocs_compilation.cpp	b2d6e12100f79143
+3	102	1725240052054674117	.qt/qml_imports/Andria_build.cmake	ed4efd08913a5872
+290	981	1725240052243700917	CMakeFiles/Andria.dir/Andria_autogen/mocs_compilation.cpp.o	cd1281ac0a587789
+3	102	1725240052054674117	/Users/elishakim/Documents/coding/Andria/build/Qt_6_7_2_for_macOS-Release/.qt/qml_imports/Andria_build.cmake	ed4efd08913a5872
+102	286	1725240052225817271	Andria_autogen/timestamp	b2d6e12100f79143
+102	286	1725240052225817271	Andria_autogen/mocs_compilation.cpp	b2d6e12100f79143
+290	1010	1725240052244062745	CMakeFiles/Andria.dir/mainwindow.cpp.o	e2f4e99c21bc035d
+1094	1197	1725240053047980885	Andria.app/Contents/MacOS/Andria	70491a91ed729091
+290	1094	1725240052243943746	CMakeFiles/Andria.dir/main.cpp.o	b1e667fdf950b5ef
+12	192	1725242816016045000	Andria_autogen/timestamp	b2d6e12100f79143
+12	192	1725242816016045000	Andria_autogen/mocs_compilation.cpp	b2d6e12100f79143
+12	192	1725242816016045000	/Users/elishakim/Documents/coding/Andria/build/Qt_6_7_2_for_macOS-Release/Andria_autogen/timestamp	b2d6e12100f79143
+12	192	1725242816016045000	/Users/elishakim/Documents/coding/Andria/build/Qt_6_7_2_for_macOS-Release/Andria_autogen/mocs_compilation.cpp	b2d6e12100f79143
+193	914	1725242816027095752	CMakeFiles/Andria.dir/mainwindow.cpp.o	e2f4e99c21bc035d
+193	982	1725242816026774671	CMakeFiles/Andria.dir/Andria_autogen/mocs_compilation.cpp.o	cd1281ac0a587789
+193	994	1725242816027204585	CMakeFiles/Andria.dir/Browser.cpp.o	2595881f828f0b93
+193	998	1725242816026981003	CMakeFiles/Andria.dir/main.cpp.o	b1e667fdf950b5ef
+998	1113	1725242816832054710	Andria.app/Contents/MacOS/Andria	5e8cefc5c664f481

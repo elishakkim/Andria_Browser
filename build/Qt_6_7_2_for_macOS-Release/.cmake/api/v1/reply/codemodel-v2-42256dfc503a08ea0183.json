@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Release-eabcf15619a318d0b904.json",
+					"jsonFile" : "directory-.-Release-dcb5c1edbefe54aadfeb.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -46,7 +46,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Andria::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Andria-Release-9399fb2b4f57e00c0193.json",
+					"jsonFile" : "target-Andria-Release-7a704ac2c19a88cd0eba.json",
 					"name" : "Andria",
 					"projectIndex" : 0
 				},
@@ -67,7 +67,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Andria_qmlimportscan::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Andria_qmlimportscan-Release-65726055239af189aacf.json",
+					"jsonFile" : "target-Andria_qmlimportscan-Release-b64886cd9e4c7b25f618.json",
 					"name" : "Andria_qmlimportscan",
 					"projectIndex" : 0
 				}

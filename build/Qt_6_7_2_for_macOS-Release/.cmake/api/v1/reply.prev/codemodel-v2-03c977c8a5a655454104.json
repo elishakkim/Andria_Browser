@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-5f30ec0094dd0d03b73c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Andria",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Andria::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Andria-Release-c2afa46594000b0d9716.json",
+					"name" : "Andria",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Andria_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Andria_autogen-Release-a25203708a633fc12d13.json",
+					"name" : "Andria_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Andria_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Andria_autogen_timestamp_deps-Release-2637ae37a27ddf7a3d78.json",
+					"name" : "Andria_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Andria_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Andria_qmlimportscan-Release-0328191db9374b730e2f.json",
+					"name" : "Andria_qmlimportscan",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/elishakim/Documents/coding/Andria/build/Qt_6_7_2_for_macOS-Release",
+		"source" : "/Users/elishakim/Documents/coding/Andria"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

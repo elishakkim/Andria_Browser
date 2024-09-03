@@ -1,4 +1,5 @@
 #include "mainwindow.h"
+#include "Browser.h"
 
 #include <QApplication>
 #include <QMainWindow>
@@ -7,7 +8,7 @@
 #include <QVBoxLayout>
 #include <QWidget>
 #include <QWebEngineView>
-#include <QWebEngineHistory>
+//#include <QWebEngineHistory>
 #include <QHBoxLayout>
 
 int main(int argc, char *argv[])
@@ -27,42 +28,16 @@ int main(int argc, char *argv[])
     QPushButton *refreshButton = new QPushButton("Refresh", centralWidget);
     QWebEngineView *webView = new QWebEngineView(centralWidget);
 
-    vLayout->addLayout(hLayout);
-    vLayout->addWidget(webView);
-    vLayout->addWidget(urlBar);
-    vLayout->addWidget(goButton);
     hLayout->addWidget(backButton);
     hLayout->addWidget(forwardButton);
     hLayout->addWidget(refreshButton);
+    hLayout->addWidget(goButton);
+    hLayout->addWidget(urlBar);
 
-    QObject::connect(goButton, &QPushButton::clicked, [urlBar, webView]() {
-        QString url = urlBar->text();
+    vLayout->addLayout(hLayout);
+    vLayout->addWidget(webView);
 
-        if(!url.startsWith("http://") && !url.startsWith("https://")) {
-            url = "http://" + url;
-        }
-
-        webView->setUrl(QUrl(url));
-    });
-
-    QObject::connect(backButton, &QPushButton::clicked, [urlBar, webView]() {
-        QWebEngineHistory* history = webView->history();
-
-        if(history->items().length() != 0) {
-            history->back();
-        }
-    });
-
-    QObject::connect(forwardButton, &QPushButton::clicked, [urlBar, webView]() {
-        QWebEngineHistory* history = webView->history();
-        if(history->canGoForward()) {
-            history->forward();
-        }
-    });
-
-    QObject::connect(refreshButton, &QPushButton::clicked, [urlBar, webView]() {
-        webView->reload();
-    });
+    Browser browser(urlBar, goButton, backButton, forwardButton, refreshButton, webView);
 
     mainWindow.setCentralWidget(centralWidget);
     mainWindow.resize(800,600);

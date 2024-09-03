@@ -58,7 +58,7 @@ set(__QT_DEPLOY_QT_DEBUG_POSTFIX "")
 
 # Define the CMake commands to be made available during deployment.
 set(__qt_deploy_support_files
-    "/Users/elishakim/Documents/coding/Andria/build/Qt_6_7_2_for_macOS-Release/.qt/QtDeployTargets.cmake"
+    "/Users/elishakim/Documents/Coding/Andria/build/Qt_6_7_2_for_macOS-Release/.qt/QtDeployTargets.cmake"
     "/Users/elishakim/Qt/6.7.2/macos/lib/cmake/Qt6Core/Qt6CoreDeploySupport.cmake"
     "/Users/elishakim/Qt/6.7.2/macos/lib/cmake/Qt6Qml/Qt6QmlDeploySupport.cmake"
     "/Users/elishakim/Qt/6.7.2/macos/lib/cmake/Qt6WebEngineCore/Qt6WebEngineCoreDeploySupport.cmake"
